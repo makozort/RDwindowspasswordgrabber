@@ -7,3 +7,5 @@ makes exception, downloads mimikatz, grabs user passwords, emails them to you vi
 encode it here I guess: https://ducktoolkit.com/encode#
 
 make sure you fill in the areas of the script that need to be, for example "PASSWORDHERE" and all the others
+
+contact me: Makozort#3903
